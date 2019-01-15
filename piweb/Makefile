@@ -13,7 +13,7 @@ LDFLAGS	= -lrpi2 -levent -lpthread
 OBJS	= webmain.o worker.o piweb.o
 
 piweb: 	libevent $(OBJS)
-	$(CXX) $(OBJS) -o piweb $(LDFLAGS)
+	$(CXX) $(OBJS) -o piweb -L$(TOPDIR)/lib $(LDFLAGS)
 	sudo chown root piweb
 	sudo chmod u+s piweb
 
