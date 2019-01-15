@@ -1,1 +1,9 @@
 *.o
+/gp/gp
+/lib/librpi2.a
+/mtop/burn
+/mtop/mtop
+/piclk/piclk
+/pipwm/pipwm
+/piweb/piweb
+/vcd2pwl/vcd2pwl
